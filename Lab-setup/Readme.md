@@ -14,25 +14,25 @@ The diagram below shows the overall structure of my lab.
 I use Oracle VirtualBox to manage the virtual machines used
 for different cybersecurity and Linux practice tasks.
 
-![VirtualBox Lab](screenshots/01_virtualbox)
+![VirtualBox Lab](screenshots/01_virtualbox.png)
 
 ### Kali Linux
 
 Kali Linux is my primary environment for cybersecurity
 analysis, networking tools, email investigation, and scripting.
 
-![Kali Linux](screenshots/02_kali-linux_setup)
+![Kali Linux](screenshots/02_kali-linux_setup.png)
 
 ### Ubuntu
 
 Ubuntu is used as an additional Linux environment for
 general Linux practice and experimentation.
 
-![Ubuntu](screenshots/03_ubuntu)
+![Ubuntu](screenshots/03_ubuntu.png)
 
 ### Windows 10
 
 Windows 10 is maintained as a separate virtual machine for
 Windows-specific practice and future endpoint analysis.
 
-![Windows 10](screenshots/03_windows10)
+![Windows 10](screenshots/03_windows10.png)
