@@ -166,7 +166,7 @@ The investigation recommended:
 
 ## Full Report
 
-[**View Full Investigation Report**](./Report.docx)
+[**View Full Investigation Report**](sample1.eml.docx)
 
 ---
 
