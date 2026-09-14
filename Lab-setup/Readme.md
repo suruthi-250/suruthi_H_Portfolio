@@ -125,23 +125,23 @@ The lab documentation includes:
 
 ### Lab Topology
 
-![Lab Topology](./topology.png)
+![Lab Topology](./topology.png.png)
 
 ### Virtual Machine Setup
 
-![VirtualBox Lab](./screenshots/virtualbox-lab.png)
+![VirtualBox Lab](./screenshots/01_virtualbox-lab.png)
 
 ### Kali Linux
 
-![Kali Linux](./screenshots/kali-linux.png)
+![Kali Linux](./screenshots/02_kali-linux_setup.png)
 
 ### Ubuntu
 
-![Ubuntu](./screenshots/ubuntu.png)
+![Ubuntu](./screenshots/03_ubuntu.png)
 
 ### Windows
 
-![Windows](./screenshots/windows10.png)
+![Windows](./screenshots/03_windows10.png)
 
 ---
 
