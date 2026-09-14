@@ -34,7 +34,7 @@ Completing the Mastercard simulation provided additional perspective on phishing
 
 ## Certificate
 
-[View Certificate](./Mastercard Cybersecurity Job Simulation.pdf)
+[View Certificate](./Mastercard-Cybersecurity-job-Simulation.pdf)
 
 ## Simulation
 
