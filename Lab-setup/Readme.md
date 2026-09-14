@@ -129,7 +129,7 @@ The lab documentation includes:
 
 ### Virtual Machine Setup
 
-![VirtualBox Lab](./screenshots/01_virtualbox-lab.png)
+![VirtualBox Lab](./screenshots/01_virtualbox.png)
 
 ### Kali Linux
 
