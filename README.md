@@ -1,86 +1,327 @@
-# Suruthi H — Cybersecurity Portfolio
+Suruthi H — Cybersecurity Portfolio
 
-&gt; **Target Role:** SOC Analyst (Tier 1 / Junior)  
-&gt; **Status:** Actively building — last updated September 2026
-
----
-
-## About
-
-Third-year Computer Science and Engineering student developing practical, hands-on cybersecurity skills aligned with Security Operations Center (SOC) responsibilities. This repository documents completed simulations, lab exercises, and independent analyses covering vulnerability response, phishing forensics, incident triage, and security awareness — with each project producing a written technical deliverable and extracted Indicators of Compromise (IOCs).
-
-**Analytical approach:** Every conclusion is supported by raw headers, packet captures, reputation checks, or sandbox results. Assumptions are flagged, not presented as fact.
-
-**Currently developing:** SIEM log analysis, detection engineering (Sigma rules), and Python automation for security workflows.
-
----
-
-## Projects
-
-| ID | Project | Category | Key Skills |
-|:---|:---|:---|:---|
-| [AIG-001](./vulnerability-management/aig-log4j-simulation) | AIG — Log4j Vulnerability Simulation | Vulnerability Management & Incident Recovery | CVE research, CISA advisory analysis, asset triage, patch prioritization, security advisory writing, Python scripting (dictionary attack simulation, ransomware recovery) |
-| [MC-001](./security-awareness/mastercard-phishing-simulation) | Mastercard — Phishing Simulation | Security Awareness & Social Engineering | Phishing indicator analysis, employee-targeting scenario design, security training material development, risk communication |
-| [PHISH-001](./phishing/PHISH-001-chase-bank) | Chase Bank Impersonation Phishing | Email Forensics & Threat Analysis | Header analysis, SPF/DKIM/DMARC interpretation, IOC extraction, URL reputation analysis (VirusTotal, URLScan, AbuseIPDB), MITRE ATT&CK mapping |
-| [PHISH-002](./phishing/PHISH-002-cibc-bank) | CIBC Bank Account Suspension Phishing | Email Forensics & Threat Analysis | Advanced header tracing, typosquat detection, compromised relay analysis, "Franken-phish" template identification, multi-domain mismatch detection |
-| [LEGIT-001](./phishing/LEGIT-001-namecheap) | Namecheap Domain Renewal — Benign Verification | Email Forensics & False-Positive Analysis | Authentication validation (SPF/DKIM/DMARC/ARC), legitimate ESP infrastructure verification, baseline comparison against phishing methodology |
-
-*Table serves as the single source of truth. Updated as new projects are completed.*
-
----
-
-## Skills Inventory
-
-**Phishing & Email Forensics**
-- Header analysis (Received chain tracing, Return-Path/Reply-To verification)
-- Email authentication protocols: SPF, DKIM, DMARC, ARC
-- IOC extraction and defanging/refanging
-- OSINT & reputation analysis: VirusTotal, URLScan, AbuseIPDB, WHOIS, nslookup
-
-**Vulnerability Management**
-- CVE and CISA advisory research and interpretation
-- Asset identification and patch prioritization
-- Security advisory writing (technical and executive audiences)
-- Python scripting for security automation and recovery
-
-**Incident Response Fundamentals**
-- Evidence collection and chain-of-custody documentation
-- Containment and mitigation reasoning
-- Timeline reconstruction from logs and headers
-
-**Security Awareness & Communication**
-- Phishing indicator recognition and social engineering tactic identification
-- Employee training material design
-- Audience-appropriate security reporting (technical detail vs. executive summary)
-
-**Frameworks & Methodologies**
-- MITRE ATT&CK technique mapping
-- Structured analytical approach: observed facts → analysis → conclusion → recommendation
-
-**Scripting & Tools**
-- Python (file handling, log parsing, basic security tooling)
-- Kali Linux command-line tools (whois, nslookup, dig)
-- Email client forensics (Thunderbird, raw .eml inspection)
-
----
-
-## Why SOC?
-
-A SOC analyst operates at the intersection of technical depth and clear communication — two areas this portfolio deliberately pairs in every project. Whether analyzing a suspicious email header or writing a post-incident advisory, the goal is the same: transform raw evidence into actionable intelligence that protects the organization.
-
----
-
-## Connect
-
-- **LinkedIn:** https://www.linkedin.com/in/suruthi-h/
+Welcome to my cybersecurity portfolio.
 
 
----
 
-## Attribution & License
+I am a third-year Computer Science and Engineering student developing practical experience across cybersecurity operations, vulnerability management, digital forensics, governance, risk, and compliance (GRC).
 
-All analysis, code, written reports, and IOC extractions in this repository are original work by the author. Scenario materials and sample emails are sourced from educational platforms (TCM Security SOC 101, Forage) and belong to their respective sponsors. This portfolio is maintained for educational and professional demonstration purposes only.
 
----
 
-*Last updated: September 2026*
+This portfolio documents my hands-on learning through security labs, investigations, technical projects, security assessments, certifications, and practical exercises.
+
+About Me
+
+I am interested in developing a well-rounded understanding of cybersecurity, combining technical security skills with the governance and risk perspective required to protect organizations effectively.
+
+
+
+My current areas of focus include:
+
+
+
+Security Operations and Incident Response
+
+Vulnerability Management
+
+Email and Digital Forensics
+
+Security Monitoring and Log Analysis
+
+Governance, Risk, and Compliance (GRC)
+
+Security Controls and Frameworks
+
+Security Awareness
+
+Security Automation and Scripting
+
+
+
+I focus on hands-on learning and practical documentation, using labs and investigations to understand how cybersecurity concepts are applied in real-world environments.
+
+Cybersecurity Home Lab
+
+I maintain a virtualized cybersecurity lab for conducting controlled and reproducible security exercises.
+
+
+
+The lab currently includes:
+
+
+
+Kali Linux
+
+Windows
+
+Ubuntu
+
+Elastic Stack / Kibana
+
+Wireshark
+
+Digital forensics tools
+
+Security analysis and OSINT utilities
+
+
+
+The environment is used for security monitoring, log analysis, vulnerability analysis, digital forensics, and other cybersecurity exercises.
+
+
+
+View Lab Setup
+
+Projects
+
+Security Operations & Incident Response
+
+ProjectDescriptionSkills / Tools
+
+Log4j Vulnerability Simulation
+
+Practical simulation of vulnerability identification, analysis, and response to the Log4j vulnerability.
+
+CVE Research, CISA Advisories, Vulnerability Management, Python
+
+Phishing Email Investigations
+
+Analysis of suspicious emails to identify indicators of compromise, authentication results, sender infrastructure, and potential phishing activity.
+
+Email Forensics, SPF, DKIM, DMARC, IOC Analysis
+
+Security Log Analysis
+
+Practical analysis of authentication and system logs to identify relevant security events.
+
+Linux, Log Analysis, Elastic/Kibana
+
+Email & Digital Forensics
+
+ProjectDescriptionSkills / Tools
+
+Phishing Email Investigation — Chase Impersonation
+
+Investigation of a suspected financial-institution impersonation email using message headers, authentication results, sender infrastructure, and indicators of compromise.
+
+Email Header Analysis, SPF, DKIM, DMARC, IOC Extraction
+
+Phishing Email Investigation — CIBC
+
+Analysis of a suspected account-related phishing email and identification of technical and contextual indicators.
+
+Email Forensics, Header Analysis, Threat Analysis
+
+Legitimate Email Analysis — Namecheap
+
+Analysis of a legitimate domain-related email to compare authentication and infrastructure characteristics with suspicious messages.
+
+Email Analysis, SPF, DKIM, DMARC
+
+Vulnerability Management
+
+Current work includes practical vulnerability research and analysis using public security advisories and vulnerability information.
+
+
+
+Areas include:
+
+
+
+CVE research
+
+CISA advisories
+
+Vulnerability identification
+
+Asset and software assessment
+
+Risk prioritization
+
+Security remediation concepts
+
+Governance, Risk & Compliance
+
+I am currently expanding my cybersecurity preparation into Governance, Risk, and Compliance (GRC).
+
+
+
+Planned and ongoing areas of practical work include:
+
+
+
+Risk assessment
+
+Risk registers
+
+Security policies
+
+Security controls
+
+Control mapping
+
+Compliance gap analysis
+
+Security frameworks
+
+Audit and security documentation
+
+Third-party / vendor risk
+
+
+
+This section will be expanded as I complete practical GRC projects and assessments.
+
+Security Awareness
+
+Security awareness work focuses on understanding and communicating common social-engineering and phishing risks.
+
+
+
+Examples include:
+
+
+
+Phishing simulations
+
+Phishing indicator analysis
+
+Social engineering awareness
+
+User-focused security recommendations
+
+Certifications & Training
+
+Certifications
+
+Certifications will be added here as they are completed.
+
+Training & Practical Learning
+
+Cybersecurity laboratory exercises
+
+TryHackMe practical labs
+
+Digital forensics exercises
+
+Security monitoring and SIEM practice
+
+Vulnerability management exercises
+
+GRC and security framework study
+
+Skills
+
+Security
+
+Incident Response Fundamentals
+
+Vulnerability Management
+
+Phishing Analysis
+
+Email Forensics
+
+IOC Analysis
+
+Security Monitoring
+
+Log Analysis
+
+Digital Forensics Fundamentals
+
+Security Awareness
+
+GRC Fundamentals
+
+Frameworks & Security Knowledge
+
+CVE / CWE concepts
+
+CISA Security Advisories
+
+MITRE ATT&CK fundamentals
+
+NIST cybersecurity concepts
+
+Security controls and risk fundamentals
+
+Tools
+
+Elastic / Kibana
+
+Kali Linux
+
+Wireshark
+
+Autopsy
+
+VirusTotal
+
+URLScan
+
+AbuseIPDB
+
+Programming & Systems
+
+Python
+
+Java
+
+Linux
+
+Windows
+
+Bash fundamentals
+
+Current Learning Focus
+
+I am currently developing practical skills in:
+
+
+
+Security Operations and SIEM
+
+Digital and Email Forensics
+
+Vulnerability Management
+
+Governance, Risk, and Compliance
+
+Security Frameworks and Controls
+
+Security Automation with Python
+
+Portfolio Philosophy
+
+
+
+I use this portfolio to document practical cybersecurity work rather than simply listing theoretical knowledge.
+
+
+
+Each project aims to demonstrate:
+
+
+
+What problem was investigated
+
+How the investigation or assessment was performed
+
+What tools and techniques were used
+
+What evidence or findings were identified
+
+What conclusions were reached
+
+What security recommendations were developed
+
+Contact
+
+LinkedIn: linkedin.com/in/suruthi-h
+
+
+
+GitHub: github.com/suruthi-250
+
+This portfolio is continuously updated as I develop new cybersecurity skills, complete certifications, and build practical security projects.
