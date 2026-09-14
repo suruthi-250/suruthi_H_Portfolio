@@ -146,7 +146,7 @@ Comparing legitimate and malicious emails can help identify differences in:
 
 ## Full Report
 
-[**View Full Investigation Report**](./Report.docx)
+[**View Full Investigation Report**](sample3.docx)
 
 ---
 
