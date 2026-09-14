@@ -50,7 +50,7 @@ This exercise helped me understand the practical difference between a dictionary
 
 ### Python Script
 
-[**View `dictionary_attack.py`**](./dictionary_attack.py)
+[**View `dictionary_attack.py`**](bruteforce.py)
 
 ---
 
@@ -85,7 +85,7 @@ AIG-Shields-Up/
 
 ## Certificate
 
-[**View Certificate**](./Certificate.pdf)
+[**View Certificate**](AIG-Shields-Up.pdf)
 
 The certificate confirms completion of the **Shields Up: Cybersecurity Job Simulation** through Forage on August 26, 2026.
 
