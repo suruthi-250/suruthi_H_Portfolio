@@ -165,7 +165,7 @@ Recommended defensive actions include:
 
 ## Full Report
 
-[**View Full Investigation Report**](./Report.docx)
+[**View Full Investigation Report**](sample2.docx)
 
 ---
 
